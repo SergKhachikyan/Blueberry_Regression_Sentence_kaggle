@@ -1,39 +1,39 @@
 # 🫐 Blueberry Regression — Kaggle Challenge
 
-Решение задачи регрессии для предсказания урожайности черники на соревновании Kaggle.
+This repository contains a regression solution for predicting blueberry yield in a Kaggle competition.
 
-## 📂 Структура проекта
+## 📂 Project Structure
 
-- `train.csv` — тренировочный набор с признаками и целевой переменной  
-- `test.csv` — тестовый набор (без целевой переменной)  
-- `submission.csv` — готовый файл предсказаний для загрузки на Kaggle  
-- `blueberry_model.ipynb` — Jupyter ноутбук с анализом, обучением и предсказаниями  
-- `requirements.txt` — зависимости проекта  
-- `README.md` — документация проекта  
+- `train.csv` — training dataset with features and target variable  
+- `test.csv` — test dataset without target variable  
+- `submission.csv` — submission file with predictions for Kaggle  
+- `blueberry_model.ipynb` — Jupyter notebook with analysis, training, and predictions  
+- `requirements.txt` — project dependencies  
+- `README.md` — project documentation  
 
-## 🔧 Используемые технологии
+## 🔧 Technologies Used
 
 - Python 3  
 - Pandas, NumPy  
 - Scikit-Learn  
 - Jupyter Notebook  
 
-## 📊 Описание данных
+## 📊 Dataset Description
 
-Набор данных содержит аграрные признаки, по которым нужно предсказать урожайность (yield) черники.
+The dataset contains agricultural features used to predict blueberry yield.
 
-## 📈 Workflow проекта
+## 📈 Project Workflow
 
-1. 📥 Загрузка и изучение данных  
-2. 🧹 Предобработка данных (обработка пропусков, кодирование)  
-3. 📊 Исследовательский анализ данных (EDA)  
-4. 🤖 Обучение моделей регрессии (`RandomForestRegressor`, `PolynomialFeatures` + `LinearRegression`)  
-5. 🧪 Оценка качества моделей (MAE, Root MAE)  
-6. 💾 Генерация файла `submission.csv` для отправки на Kaggle  
+1. 📥 Load and explore data  
+2. 🧹 Data preprocessing (missing values handling, encoding)  
+3. 📊 Exploratory data analysis (EDA)  
+4. 🤖 Train regression models (`RandomForestRegressor`, `PolynomialFeatures` + `LinearRegression`)  
+5. 🧪 Evaluate model performance (MAE, Root MAE)  
+6. 💾 Generate `submission.csv` file for Kaggle submission  
 
-## 🚀 Как запустить
+## 🚀 How to Run
 
-Установить зависимости:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
