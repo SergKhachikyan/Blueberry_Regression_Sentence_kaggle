@@ -22,6 +22,9 @@ This repository contains a regression solution for predicting blueberry yield in
 
 The dataset contains agricultural features used to predict blueberry yield.
 
+![bxdo](https://github.com/user-attachments/assets/1c78af3e-b3de-46ca-bdf5-57c9cdfcfa0d)
+
+
 ## 📈 Project Workflow
 
 1. 📥 Load and explore data  
